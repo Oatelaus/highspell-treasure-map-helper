@@ -3,7 +3,7 @@ import { PanelManager } from "@highlite/plugin-api";
 
 const TreasureMapItemIds = [442, 443, 456];
 
-export default class ExamplePlugin extends Plugin {
+export default class TreasureMapHelper extends Plugin {
     panelManager: PanelManager = new PanelManager();
     pluginName = "Treasure Map Helper";
     author: string = "Oatelaus";
